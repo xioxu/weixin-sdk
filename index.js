@@ -1,3 +1,3 @@
-exports.Hello = function ( name ) {
-    console.log( "Hello " + name );
-}
+var wechatRequestApi = require('./lib/weixin-request');
+
+module.exports = wechatRequestApi;
